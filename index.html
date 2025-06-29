@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudarshan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="Picsart_25-06-29_17-42-45-734.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Nano Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="#" class="logo">My Portfolio</a>
+
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content fade-in">
+            <h1>Hi, I'm <span>Sudarshan Rayudu</span></h1>
+            <h3 class="typing-text">I'm a <span id="typing"></span><span class="cursor"></span></h3>
+            <p>Full-stack developer specializing in 
+                modern web technologies with expertise in 
+                Flutter for cross-platform mobile applications. 
+                Passionate about building intelligent systems through AI/ML
+                 and deriving insights from data. Experienced in implementing 
+                 DevOps practices to streamline development workflows and deployment pipelines.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sudarshan-rayudu-819121343/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/RayuduSudarshan" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/RSUDARSHAN93980" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mr.perfect._.882/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+
+        <div class="home-img fade-in delay-1">
+            <img src="sudha.jpg" alt="Sudarshan Rayudu">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-img fade-in">
+            <img src="imgabout.jpeg" alt="About Sudarshan">
+        </div>
+
+        <div class="about-content fade-in delay-1">
+            <h2 class="section-title">About <span>Me</span></h2>
+
+            <h3>Computer Science <span>Student</span></h3>
+
+            <p>This is "Sudarshan Rayudu", and I'm a second-year student at "Pydah College of Engineering". I'm
+                currently pursuing a degree in "Computer Science Engineering".</p>
+
+            <p>In my free time, I enjoy coding for personal projects and editing photos and videos. I'm always looking
+                for new opportunities to learn and connect with others.</p>
+
+            <div class="skills-container">
+                <div class="skill-item">
+                    <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+                    <p>B.Tech in Computer Science Engineering at Pydah College of Engineering</p>
+                </div>
+
+                <div class="skill-item">
+                    <h4><i class="fas fa-laptop-code"></i> Experience</h4>
+                    <p>2+ years of coding experience with various projects and internships</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title fade-in">My <span>Skills</span></h2>
+
+            <!-- New Skill Cards -->
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Data Science</h3>
+                <p>Data analysis, visualization, machine learning</p>
+            </div>
+
+            <div class="skill-card fade-in delay-1">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>DevOps</h3>
+                <p>CI/CD, Docker, Kubernetes, Cloud services</p>
+            </div>
+
+            <div class="skill-card fade-in delay-2">
+                <div class="skill-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI/ML</h3>
+                <p>Machine learning models, NLP, Computer vision</p>
+            </div>
+
+            <div class="skill-card fade-in delay-3">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Full-stack development, REST APIs, Web security</p>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-mobile"></i>
+                </div>
+                <h3>Flutter Development</h3>
+                <p>Cross-platform mobile apps, UI/UX design</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title fade-in">My <span>Projects</span></h2>
+
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <img src="FootCap.jpeg" alt="E-commerce Website" class="project-img">
+                <div class="project-info">
+                    <h3>Footcap(E-commerce Website)</h3>
+                    <p>Developed a full-featured online store with product listings, cart functionality, and secure
+                        checkout.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JAVASCRIPT</span>
+                        <span class="tag">REACT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://rayudusudarshan.github.io/Micro_IT_footcap-Master_Project/"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in delay-1">
+                <img src="Calculator.jpeg" alt="Task Manager" class="project-img">
+                <div class="project-info">
+                    <h3>Neno Calculator</h3>
+                    <p>Calculator</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Javascript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://rayudusudarshan.github.io/Micro_IT_Calculator_Project/"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in delay-1">
+                <img src="food.jpg" alt="Task Manager" class="project-img">
+                <div class="project-info">
+                    <h3>Foodie Haven</h3>
+                    <p>Developed a full-featured online Food with Food listings, cart functionality, and secure checkout
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Javascript</span>
+                        <span class="tag">Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://rayudusudarshan.github.io/Micro_IT_Calculator_Project/"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in delay-2">
+                <img src="dog.jpg" alt="Weather App" class="project-img">
+                <div class="project-info">
+                    <h3>Pet Care Management System</h3>
+                    <p>Pet Needs & Buy Pets</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2 class="section-title fade-in">My <span>Certifications</span></h2>
+
+        <div class="certifications-grid">
+            <div class="certification-card fade-in">
+                <img src="infosis.jpg" alt="Web Development Certification" class="certification-img">
+                <div class="certification-info">
+                    <h3>Infosys</h3>
+                    <p>Certified Programming in C</p>
+                    <p class="certification-date">Issued: Feb 2025</p>
+                </div>
+            </div>
+
+            <div class="certification-card fade-in delay-1">
+                <img src="hp.jpg" alt="JavaScript Certification" class="certification-img">
+                <div class="certification-info">
+                    <h3>HP Life</h3>
+                    <p>AI For Beginners</p>
+                    <p class="certification-date">Issued: Feb 2025</p>
+                </div>
+            </div>
+            <div class="certification-card fade-in delay-1">
+                <img src="redhat.jpg" alt="JavaScript Certification" class="certification-img">
+                <div class="certification-info">
+                    <h3>Red Hat</h3>
+                    <p>Linux Fundamentals</p>
+                    <p class="certification-date">Issued: Feb 2025</p>
+                </div>
+            </div>
+
+            <div class="certification-card fade-in delay-2">
+                <img src="aws.jpg" alt="React Certification" class="certification-img">
+                <div class="certification-info">
+                    <h3>AWS Academy Cloud Security Foundations</h3>
+                    <p>Cloud Security</p>
+                    <p class="certification-date">Issued: April 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="resume-container fade-in">
+            <h2>My <span>Resume</span></h2>
+            <p>Download my complete resume to learn more about my professional experience, education, and skills.</p>
+            <a href="Sudarshan's Resume .pdf" download class="btn"><i class="fas fa-download"></i> Download Resume</a>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="bubbles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                <input type="hidden" name="access_key" value="a477f6f8-984c-4a98-ab0b-e19a3bcf8d25">
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <input type="hidden" name="subject" value="New Submission from  Contact Form">
+
+                <h2>Contact Us</h2>
+
+                <div class="inputBox">
+                    <input type="text" name="name" required>
+                    <span>Full Name</span>
+                    <i></i>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" name="email" required>
+                    <span>Email Address</span>
+                    <i></i>
+                </div>
+
+                <div class="inputBox">
+                    <textarea name="message" required></textarea>
+                    <span>Your Message</span>
+                    <i></i>
+                </div>
+
+                <div class="form-status" id="form-status"></div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Sudarshan</div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/sudarshan-rayudu-819121343/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/RayuduSudarshan" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/RSUDARSHAN93980" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mr.perfect._.882/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            &copy; 2025 Sudarshan Rayudu. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+<!-- Add this at the top of your body, before the particles div -->
+<div class="loader-container" id="loader">
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+        </div>
+        <div class="loader-text">
+            <span class="percentage" id="percentage">0%</span>
+            <span class="loading-text">Loading Portfolio...</span>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
